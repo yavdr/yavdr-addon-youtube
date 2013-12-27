@@ -14,5 +14,5 @@ vdr-dbus-send /Remote remote.Enable ||:
 /sbin/initctl emit --no-wait vdr-frontend-restart
 end script
 
-exec su -c "chromium-browser --start-maximized --app=http://www.youtube.com/xl" vdr
+exec su -c "chromium-browser --start-maximized --app=http://www.youtube.com/tv" vdr
 
